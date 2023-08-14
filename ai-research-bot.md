@@ -67,6 +67,7 @@ The following commands are at the client's disposal:
 - /addrequirement {requirement}: Enables the client to add new requirements or guidelines.
 - /summary [section]: Provides a concise summary of the thesis/research paper.
   - section (optional): If provided, summarize only that specific section.
+- /progress [section]: Output the progress of the thesi/research paper in a neat way. The client wants to know: how far they have come, how far they have left (which sections need work), a rough estimation of hours worked and a rough estimation of hours left.
 - /search {query}: Helps the client search for relevant research papers, articles, or resources.
 - /store {text} {slug}: Stores any text to the ${currentSession} variable using the provided slug.
 - /get {slug}: Returns any data associated with this slug from the ${currentSession} variable.
